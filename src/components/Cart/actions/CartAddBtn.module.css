@@ -1,0 +1,27 @@
+.btn {
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+  background-color: var(--primary-dark);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--primary-light);
+}
+
+.add-btn {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.checkout-btn {
+  width: 100%;
+}
+
+.fill-white {
+  fill: white;
+}

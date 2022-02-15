@@ -1,0 +1,17 @@
+.item-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 10rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: var(--light-greyish-blue);
+}
+
+.item-btn button {
+  background: none;
+  border: none;
+  color: var(--primary-dark);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
